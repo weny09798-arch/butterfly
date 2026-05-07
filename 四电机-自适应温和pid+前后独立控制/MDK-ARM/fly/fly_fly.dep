@@ -1,0 +1,1263 @@
+Dependencies for Project 'fly', Target 'fly': (DO NOT MODIFY !)
+F (startup_stm32g031xx.s)(0x6907703C)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32G031xx SETA 1"--list startup_stm32g031xx.lst --xref -o fly\startup_stm32g031xx.o --depend fly\startup_stm32g031xx.d)
+F (../Core/Src/main.c)(0x69EA0DB0)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\main.o --omf_browse fly\main.crf --depend fly\main.d)
+I (../Core/Inc/main.h)(0x694FEA0A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+I (../user/module/AS5600/as5600.h)(0x68D320B2)
+I (../user/struct_typedef.h)(0x68AD931E)
+I (../user/module/pid/pid.h)(0x68C2AB7E)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (../user/module/motor/motor.h)(0x69D36324)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69E8C6F0)
+I (../Core/Inc/adc.h)(0x68D34E78)
+I (../Core/Inc/dma.h)(0x68C80776)
+I (../Core/Inc/tim.h)(0x68D2F754)
+I (../Core/Inc/usart.h)(0x68D6CA64)
+I (../Core/Inc/gpio.h)(0x68A9CD42)
+I (../user/module/elrs/elrs.h)(0x695A928E)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+F (../Core/Src/gpio.c)(0x6950D482)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\gpio.o --omf_browse fly\gpio.crf --depend fly\gpio.d)
+I (../Core/Inc/gpio.h)(0x68A9CD42)
+I (../Core/Inc/main.h)(0x694FEA0A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+I (../user/module/AS5600/as5600.h)(0x68D320B2)
+I (../user/struct_typedef.h)(0x68AD931E)
+I (../user/module/pid/pid.h)(0x68C2AB7E)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (../user/module/motor/motor.h)(0x69D36324)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69E8C6F0)
+I (../Core/Inc/adc.h)(0x68D34E78)
+F (../Core/Src/adc.c)(0x694FF81A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\adc.o --omf_browse fly\adc.crf --depend fly\adc.d)
+I (../Core/Inc/adc.h)(0x68D34E78)
+I (../Core/Inc/main.h)(0x694FEA0A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+I (../user/module/AS5600/as5600.h)(0x68D320B2)
+I (../user/struct_typedef.h)(0x68AD931E)
+I (../user/module/pid/pid.h)(0x68C2AB7E)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (../user/module/motor/motor.h)(0x69D36324)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69E8C6F0)
+F (../Core/Src/dma.c)(0x68D34B2A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\dma.o --omf_browse fly\dma.crf --depend fly\dma.d)
+I (../Core/Inc/dma.h)(0x68C80776)
+I (../Core/Inc/main.h)(0x694FEA0A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+I (../user/module/AS5600/as5600.h)(0x68D320B2)
+I (../user/struct_typedef.h)(0x68AD931E)
+I (../user/module/pid/pid.h)(0x68C2AB7E)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (../user/module/motor/motor.h)(0x69D36324)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69E8C6F0)
+I (../Core/Inc/adc.h)(0x68D34E78)
+F (../Core/Src/tim.c)(0x694FEA0A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\tim.o --omf_browse fly\tim.crf --depend fly\tim.d)
+I (../Core/Inc/tim.h)(0x68D2F754)
+I (../Core/Inc/main.h)(0x694FEA0A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+I (../user/module/AS5600/as5600.h)(0x68D320B2)
+I (../user/struct_typedef.h)(0x68AD931E)
+I (../user/module/pid/pid.h)(0x68C2AB7E)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (../user/module/motor/motor.h)(0x69D36324)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69E8C6F0)
+I (../Core/Inc/adc.h)(0x68D34E78)
+F (../Core/Src/usart.c)(0x68D33DFA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\usart.o --omf_browse fly\usart.crf --depend fly\usart.d)
+I (../Core/Inc/usart.h)(0x68D6CA64)
+I (../Core/Inc/main.h)(0x694FEA0A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+I (../user/module/AS5600/as5600.h)(0x68D320B2)
+I (../user/struct_typedef.h)(0x68AD931E)
+I (../user/module/pid/pid.h)(0x68C2AB7E)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (../user/module/motor/motor.h)(0x69D36324)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69E8C6F0)
+I (../Core/Inc/adc.h)(0x68D34E78)
+F (../Core/Src/stm32g0xx_it.c)(0x68D34B2A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_it.o --omf_browse fly\stm32g0xx_it.crf --depend fly\stm32g0xx_it.d)
+I (../Core/Inc/main.h)(0x694FEA0A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+I (../user/module/AS5600/as5600.h)(0x68D320B2)
+I (../user/struct_typedef.h)(0x68AD931E)
+I (../user/module/pid/pid.h)(0x68C2AB7E)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (../user/module/motor/motor.h)(0x69D36324)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69E8C6F0)
+I (../Core/Inc/adc.h)(0x68D34E78)
+I (../Core/Inc/stm32g0xx_it.h)(0x68D34B2A)
+F (../Core/Src/stm32g0xx_hal_msp.c)(0x68A9CD44)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_msp.o --omf_browse fly\stm32g0xx_hal_msp.crf --depend fly\stm32g0xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x694FEA0A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+I (../user/module/AS5600/as5600.h)(0x68D320B2)
+I (../user/struct_typedef.h)(0x68AD931E)
+I (../user/module/pid/pid.h)(0x68C2AB7E)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (../user/module/motor/motor.h)(0x69D36324)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69E8C6F0)
+I (../Core/Inc/adc.h)(0x68D34E78)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_adc.o --omf_browse fly\stm32g0xx_hal_adc.crf --depend fly\stm32g0xx_hal_adc.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_adc_ex.o --omf_browse fly\stm32g0xx_hal_adc_ex.crf --depend fly\stm32g0xx_hal_adc_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_ll_adc.o --omf_browse fly\stm32g0xx_ll_adc.crf --depend fly\stm32g0xx_ll_adc.d)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_rcc.o --omf_browse fly\stm32g0xx_hal_rcc.crf --depend fly\stm32g0xx_hal_rcc.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_rcc_ex.o --omf_browse fly\stm32g0xx_hal_rcc_ex.crf --depend fly\stm32g0xx_hal_rcc_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_ll_rcc.o --omf_browse fly\stm32g0xx_ll_rcc.crf --depend fly\stm32g0xx_ll_rcc.d)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_flash.o --omf_browse fly\stm32g0xx_hal_flash.crf --depend fly\stm32g0xx_hal_flash.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_flash_ex.o --omf_browse fly\stm32g0xx_hal_flash_ex.crf --depend fly\stm32g0xx_hal_flash_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_gpio.o --omf_browse fly\stm32g0xx_hal_gpio.crf --depend fly\stm32g0xx_hal_gpio.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_dma.o --omf_browse fly\stm32g0xx_hal_dma.crf --depend fly\stm32g0xx_hal_dma.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_dma_ex.o --omf_browse fly\stm32g0xx_hal_dma_ex.crf --depend fly\stm32g0xx_hal_dma_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_pwr.o --omf_browse fly\stm32g0xx_hal_pwr.crf --depend fly\stm32g0xx_hal_pwr.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_pwr_ex.o --omf_browse fly\stm32g0xx_hal_pwr_ex.crf --depend fly\stm32g0xx_hal_pwr_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_cortex.o --omf_browse fly\stm32g0xx_hal_cortex.crf --depend fly\stm32g0xx_hal_cortex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal.o --omf_browse fly\stm32g0xx_hal.crf --depend fly\stm32g0xx_hal.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_exti.o --omf_browse fly\stm32g0xx_hal_exti.crf --depend fly\stm32g0xx_hal_exti.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_tim.o --omf_browse fly\stm32g0xx_hal_tim.crf --depend fly\stm32g0xx_hal_tim.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_tim_ex.o --omf_browse fly\stm32g0xx_hal_tim_ex.crf --depend fly\stm32g0xx_hal_tim_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_uart.o --omf_browse fly\stm32g0xx_hal_uart.crf --depend fly\stm32g0xx_hal_uart.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c)(0x681708BA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\stm32g0xx_hal_uart_ex.o --omf_browse fly\stm32g0xx_hal_uart_ex.crf --depend fly\stm32g0xx_hal_uart_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (../Core/Src/system_stm32g0xx.c)(0x68A9CD3A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\system_stm32g0xx.o --omf_browse fly\system_stm32g0xx.crf --depend fly\system_stm32g0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+F (..\user\module\motor\motor.c)(0x695C403E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\motor.o --omf_browse fly\motor.crf --depend fly\motor.d)
+I (..\user\module\motor\motor.h)(0x69D36324)
+I (../user/module/pid/pid.h)(0x68C2AB7E)
+I (../user/struct_typedef.h)(0x68AD931E)
+I (../Core/Inc/main.h)(0x694FEA0A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+I (../user/module/AS5600/as5600.h)(0x68D320B2)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (../user/module/motor/motor.h)(0x69D36324)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69E8C6F0)
+I (../Core/Inc/adc.h)(0x68D34E78)
+F (..\user\module\pid\pid.c)(0x6950D84C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\pid.o --omf_browse fly\pid.crf --depend fly\pid.d)
+I (..\user\module\pid\pid.h)(0x68C2AB7E)
+I (../user/struct_typedef.h)(0x68AD931E)
+I (../Core/Inc/main.h)(0x694FEA0A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+I (../user/module/AS5600/as5600.h)(0x68D320B2)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (../user/module/motor/motor.h)(0x69D36324)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69E8C6F0)
+I (../Core/Inc/adc.h)(0x68D34E78)
+F (..\user\module\AS5600\AS5600_PWM.c)(0x69DA696E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\as5600_pwm.o --omf_browse fly\as5600_pwm.crf --depend fly\as5600_pwm.d)
+I (..\user\module\AS5600\AS5600_PWM.h)(0x69E8C6F0)
+I (../Core/Inc/main.h)(0x694FEA0A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+I (../user/module/AS5600/as5600.h)(0x68D320B2)
+I (../user/struct_typedef.h)(0x68AD931E)
+I (../user/module/pid/pid.h)(0x68C2AB7E)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (../user/module/motor/motor.h)(0x69D36324)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69E8C6F0)
+I (../Core/Inc/adc.h)(0x68D34E78)
+F (..\user\module\elrs\elrs.c)(0x695AAE24)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user/bsp -I ../user/module/bluetooth -I ../user/module/mt6816 -I ../user -I ../user/module/motor -I ../user/module/pid -I ../user/module/encoder -I ../user/elrs -I ../user/module/AS5600 -I ../user/module/elrs -I ../user/module/Receiver-I.\RTE\_fly-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil5\ARM\PACK\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32G031xx -DUSE_HAL_DRIVER -DSTM32G031xx-o fly\elrs.o --omf_browse fly\elrs.crf --depend fly\elrs.d)
+I (..\user\module\elrs\elrs.h)(0x695A928E)
+I (../Core/Inc/main.h)(0x694FEA0A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x681708BA)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x68D33DFA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x681708BA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x68170898)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68170898)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68170898)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x68170898)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x681708BA)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x681708BA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x681708BA)
+I (../user/module/AS5600/as5600.h)(0x68D320B2)
+I (../user/struct_typedef.h)(0x68AD931E)
+I (../user/module/pid/pid.h)(0x68C2AB7E)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (../user/module/motor/motor.h)(0x69D36324)
+I (../user/module/AS5600/AS5600_PWM.h)(0x69E8C6F0)
+I (../Core/Inc/adc.h)(0x68D34E78)
+I (../Core/Inc/usart.h)(0x68D6CA64)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
