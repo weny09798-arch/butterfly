@@ -9,7 +9,7 @@
 #define MOTOR1_MIDPOINT 3309  // 电机1 1024点编码器值
 #define  MOTOR3_MIDPOINT 3873  // 电机3 1024点编码器值 原来420
 
-#define MOTOR2_MIDPOINT 3113 // 电机2 1024点编码器值  
+#define MOTOR2_MIDPOINT 3000 // 电机2 1024点编码器值  
 #define MOTOR4_MIDPOINT 3877  // 电机4 1024点编码器值
 
 
