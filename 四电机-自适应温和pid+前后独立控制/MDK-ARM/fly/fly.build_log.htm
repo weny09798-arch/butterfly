@@ -21,15 +21,20 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
 Dialog DLL:      TARMCM1.DLL V1.13.0.0
  
 <h2>Project:</h2>
-d:\arduino\daima\05_terminal\四电机蝴蝶飞控代码 (3)\四电机蝴蝶飞控代码 (2)\四电机-自适应温和pid+前后独立控制\MDK-ARM\fly.uvprojx
+D:\arduino\daima\05_terminal\四电机蝴蝶飞控代码 (3)\四电机蝴蝶飞控代码 (2)\四电机-自适应温和pid+前后独立控制\MDK-ARM\fly.uvprojx
 Project File Date:  04/22/2026
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil5\ARM\ARMCC\Bin'
-Rebuild target 'fly'
-compiling stm32g0xx_ll_adc.c...
-assembling startup_stm32g031xx.s...
-compiling stm32g0xx_hal_adc_ex.c...
+Build target 'fly'
+compiling dma.c...
+../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
+  #endif /* __MAIN_H */
+../user/module/motor/motor.h(75): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
+  #endif /* __MAIN_H */
+../Core/Src/dma.c: 3 warnings, 0 errors
 compiling gpio.c...
 ../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
   #endif /* __MAIN_H */
@@ -46,42 +51,6 @@ compiling stm32g0xx_it.c...
 ../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
   #endif /* __MAIN_H */
 ../Core/Src/stm32g0xx_it.c: 3 warnings, 0 errors
-compiling stm32g0xx_hal_msp.c...
-../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
-  #endif /* __MAIN_H */
-../user/module/motor/motor.h(75): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
-  #endif /* __MAIN_H */
-../Core/Src/stm32g0xx_hal_msp.c: 3 warnings, 0 errors
-compiling tim.c...
-../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
-  #endif /* __MAIN_H */
-../user/module/motor/motor.h(75): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
-  #endif /* __MAIN_H */
-../Core/Src/tim.c(381): warning:  #1-D: last line of file ends without a newline
-  /* USER CODE END 1 */
-../Core/Src/tim.c: 4 warnings, 0 errors
-compiling dma.c...
-../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
-  #endif /* __MAIN_H */
-../user/module/motor/motor.h(75): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
-  #endif /* __MAIN_H */
-../Core/Src/dma.c: 3 warnings, 0 errors
-compiling adc.c...
-../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
-  #endif /* __MAIN_H */
-../user/module/motor/motor.h(75): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
-  #endif /* __MAIN_H */
-../Core/Src/adc.c(191): warning:  #1-D: last line of file ends without a newline
-  /* USER CODE END 1 */
-../Core/Src/adc.c: 4 warnings, 0 errors
 compiling usart.c...
 ../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
   #endif /* __MAIN_H */
@@ -90,42 +59,14 @@ compiling usart.c...
 ../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
   #endif /* __MAIN_H */
 ../Core/Src/usart.c: 3 warnings, 0 errors
-compiling stm32g0xx_ll_rcc.c...
-compiling stm32g0xx_hal_rcc_ex.c...
-compiling stm32g0xx_hal_rcc.c...
-compiling stm32g0xx_hal_adc.c...
-compiling main.c...
+compiling stm32g0xx_hal_msp.c...
 ../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
   #endif /* __MAIN_H */
 ../user/module/motor/motor.h(75): warning:  #1-D: last line of file ends without a newline
   #endif
 ../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
   #endif /* __MAIN_H */
-../user/module/elrs/elrs.h(104): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Core/Src/main.c(1016): warning:  #1-D: last line of file ends without a newline
-  /* USER CODE END 5 */
-../Core/Src/main.c(99): warning:  #177-D: variable "g_phase16"  was declared but never referenced
-  static uint16_t g_phase16 = 0;           // 鐩镐綅绱姞鍣紙0-65535琛ㄧず瀹屾暣鍛ㄦ湡锛?
-../Core/Src/main.c(100): warning:  #550-D: variable "g_last_ms"  was set but never used
-  static uint32_t g_last_ms = 0;           // 涓婁竴娆″惊鐜椂闂存埑锛坢s锛?
-../Core/Src/main.c(957): warning:  #177-D: function "abs16_fast"  was declared but never referenced
-  static inline uint16_t abs16_fast(int16_t x) 
-../Core/Src/main.c: 8 warnings, 0 errors
-compiling stm32g0xx_hal_flash_ex.c...
-compiling stm32g0xx_hal_dma_ex.c...
-compiling stm32g0xx_hal_pwr.c...
-compiling stm32g0xx_hal_flash.c...
-compiling stm32g0xx_hal_gpio.c...
-compiling stm32g0xx_hal.c...
-compiling stm32g0xx_hal_cortex.c...
-compiling stm32g0xx_hal_exti.c...
-compiling stm32g0xx_hal_pwr_ex.c...
-compiling stm32g0xx_hal_dma.c...
-compiling stm32g0xx_hal_tim_ex.c...
-compiling stm32g0xx_hal_tim.c...
-compiling system_stm32g0xx.c...
-compiling stm32g0xx_hal_uart_ex.c...
+../Core/Src/stm32g0xx_hal_msp.c: 3 warnings, 0 errors
 compiling motor.c...
 ../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
   #endif /* __MAIN_H */
@@ -146,6 +87,26 @@ compiling AS5600_PWM.c...
 ../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
   #endif /* __MAIN_H */
 ..\user\module\AS5600\AS5600_PWM.c: 3 warnings, 0 errors
+compiling adc.c...
+../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
+  #endif /* __MAIN_H */
+../user/module/motor/motor.h(75): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
+  #endif /* __MAIN_H */
+../Core/Src/adc.c(191): warning:  #1-D: last line of file ends without a newline
+  /* USER CODE END 1 */
+../Core/Src/adc.c: 4 warnings, 0 errors
+compiling tim.c...
+../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
+  #endif /* __MAIN_H */
+../user/module/motor/motor.h(75): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
+  #endif /* __MAIN_H */
+../Core/Src/tim.c(381): warning:  #1-D: last line of file ends without a newline
+  /* USER CODE END 1 */
+../Core/Src/tim.c: 4 warnings, 0 errors
 compiling pid.c...
 ../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
   #endif /* __MAIN_H */
@@ -166,7 +127,24 @@ compiling elrs.c...
 ..\user\module\elrs\elrs.c(105): warning:  #177-D: function "int8_Map_with_median"  was declared but never referenced
   static inline uint8_t int8_Map_with_median(uint16_t x,
 ..\user\module\elrs\elrs.c: 5 warnings, 0 errors
-compiling stm32g0xx_hal_uart.c...
+compiling main.c...
+../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
+  #endif /* __MAIN_H */
+../user/module/motor/motor.h(75): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/main.h(118): warning:  #1-D: last line of file ends without a newline
+  #endif /* __MAIN_H */
+../user/module/elrs/elrs.h(104): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c(1016): warning:  #1-D: last line of file ends without a newline
+  /* USER CODE END 5 */
+../Core/Src/main.c(99): warning:  #177-D: variable "g_phase16"  was declared but never referenced
+  static uint16_t g_phase16 = 0;           // 鐩镐綅绱姞鍣紙0-65535琛ㄧず瀹屾暣鍛ㄦ湡锛?
+../Core/Src/main.c(100): warning:  #550-D: variable "g_last_ms"  was set but never used
+  static uint32_t g_last_ms = 0;           // 涓婁竴娆″惊鐜椂闂存埑锛坢s锛?
+../Core/Src/main.c(957): warning:  #177-D: function "abs16_fast"  was declared but never referenced
+  static inline uint16_t abs16_fast(int16_t x) 
+../Core/Src/main.c: 8 warnings, 0 errors
 linking...
 Program Size: Code=18156 RO-data=392 RW-data=88 ZI-data=2152  
 FromELF: creating hex file...
@@ -193,7 +171,7 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.0.1
-Build Time Elapsed:  00:00:14
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>
