@@ -6,7 +6,7 @@
 #define MAX_VALUE 4096  // 输入范围 0~4095，所以最大值为 4096  
 
 // 各电机1024点位定义
-#define MOTOR1_MIDPOINT 3309  // 电机1 1024点编码器值
+#define MOTOR1_MIDPOINT 3310  // 电机1 1024点编码器值
 #define  MOTOR3_MIDPOINT 3873  // 电机3 1024点编码器值 原来420
 
 #define MOTOR2_MIDPOINT 3000 // 电机2 1024点编码器值  
