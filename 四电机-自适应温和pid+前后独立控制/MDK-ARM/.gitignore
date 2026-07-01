@@ -1,15 +1,24 @@
-# dot files
-/.vscode/launch.json
-/.settings
-/.eide/log
-/.eide.usr.ctx.json
+# 过滤 VS Code 插件的日志和本地配置
+.vscode/
+*.log
 
-# project out
-/build
-/bin
-/obj
-/out
-
-# eide template
-*.ept
-*.eide-template
+# 过滤 Keil 编译生成的中间文件和输出文件
+**/MDK-ARM/Listings/
+**/MDK-ARM/Objects/
+**/MDK-ARM/*.uvguix.*
+**/MDK-ARM/*.uv2
+**/MDK-ARM/*.dep
+*.txt
+*.bak
+*.dep
+*.iex
+*.lnp
+*.mpf
+*.mpw
+*.crf
+*.d
+*.o
+*.axf
+*.htm
+*.sct
+*.map
